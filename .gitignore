@@ -1,0 +1,33 @@
+# Compiled output
+/out/
+/bin/
+/build/
+/target/
+*.class
+*.jar
+*.zip
+
+# IDE-specific files
+.idea/
+.vscode/
+.settings/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local training corpora and model exports
+/data/
+/models/
